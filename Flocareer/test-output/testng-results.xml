@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11512" started-at="2017-07-08T12:37:19Z" finished-at="2017-07-08T12:37:30Z">
+  <suite name="Suite" duration-ms="9165" started-at="2017-07-08T17:37:06Z" finished-at="2017-07-08T17:37:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11512" started-at="2017-07-08T12:37:19Z" finished-at="2017-07-08T12:37:30Z">
+    <test name="Test" duration-ms="9165" started-at="2017-07-08T17:37:06Z" finished-at="2017-07-08T17:37:15Z">
       <class name="Com.Flo.Testclasses.Requirements.Login.Login">
-        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@6f7fd0e6]" name="tearup" is-config="true" duration-ms="11476" started-at="2017-07-08T18:07:19Z" finished-at="2017-07-08T18:07:30Z">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@68c4039c]" name="tearup" is-config="true" duration-ms="9132" started-at="2017-07-08T23:07:06Z" finished-at="2017-07-08T23:07:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@6f7fd0e6]" name="Login" duration-ms="6" started-at="2017-07-08T18:07:30Z" finished-at="2017-07-08T18:07:30Z">
+        <test-method status="PASS" signature="Logintoapp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@68c4039c]" name="Logintoapp" duration-ms="7" started-at="2017-07-08T23:07:15Z" finished-at="2017-07-08T23:07:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
+        </test-method> <!-- Logintoapp -->
       </class> <!-- Com.Flo.Testclasses.Requirements.Login.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

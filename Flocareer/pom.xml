@@ -2,10 +2,30 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+<profiles>
+   <profile>
+      <id>selenium-tests</id>
+      <build>
+         <plugins>
+            <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-surefire-plugin</artifactId>
+               <version>2.12.4</version>
+               <configuration>
+                  <suiteXmlFiles>
+                     <suiteXmlFile>testng.xml</suiteXmlFile>
+                  </suiteXmlFiles>
+               </configuration>
+            </plugin>     
+         </plugins>
+      </build>
+   </profile>
+</profiles>
   <groupId>Com.Maven</groupId>
   <artifactId>Flocareer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+
 
   <name>Flocareer</name>
   <url>http://maven.apache.org</url>
