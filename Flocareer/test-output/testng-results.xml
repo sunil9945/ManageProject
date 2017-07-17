@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9165" started-at="2017-07-08T17:37:06Z" finished-at="2017-07-08T17:37:15Z">
+  <suite name="Default suite" duration-ms="13775" started-at="2017-07-17T09:12:58Z" finished-at="2017-07-17T09:13:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9165" started-at="2017-07-08T17:37:06Z" finished-at="2017-07-08T17:37:15Z">
+    <test name="Default test" duration-ms="13775" started-at="2017-07-17T09:12:58Z" finished-at="2017-07-17T09:13:12Z">
       <class name="Com.Flo.Testclasses.Requirements.Login.Login">
-        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@68c4039c]" name="tearup" is-config="true" duration-ms="9132" started-at="2017-07-08T23:07:06Z" finished-at="2017-07-08T23:07:15Z">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@59f99ea]" name="tearup" is-config="true" duration-ms="12471" started-at="2017-07-17T14:42:59Z" finished-at="2017-07-17T14:43:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method status="PASS" signature="Logintoapp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@68c4039c]" name="Logintoapp" duration-ms="7" started-at="2017-07-08T23:07:15Z" finished-at="2017-07-08T23:07:15Z">
+        <test-method status="PASS" signature="Logintoapp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@59f99ea]" name="Logintoapp" duration-ms="1274" started-at="2017-07-17T14:43:11Z" finished-at="2017-07-17T14:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintoapp -->
       </class> <!-- Com.Flo.Testclasses.Requirements.Login.Login -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

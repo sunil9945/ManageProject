@@ -11,7 +11,7 @@ import Com.Flo.Data.PropDatareadmethods;
 import Com.Flo.Data.Readpropertiesfile;
 
 public class Basicconfig extends Readpropertiesfile{
-	WebDriver driver;
+	public WebDriver driver;
 	
 	@BeforeMethod
 	public void tearup() throws Exception {
@@ -40,6 +40,8 @@ public class Basicconfig extends Readpropertiesfile{
 			throw new Exception("Browser is not correct");
 		}
 	}
+	
+	
 		
 	}
 
