@@ -26,7 +26,7 @@ public class Loginpage_Functions extends ElementList {
 	
 	public Loginpage_Functions enterpassword(){
 		this.waitForElement(LoginPage_Locators.PASS_WORD, "id");
-		this.element(LoginPage_Locators.PASS_WORD, "id").sendKeys("");
+		this.element(LoginPage_Locators.PASS_WORD, "id").sendKeys("123");
 		return this;		
 	}
 	
