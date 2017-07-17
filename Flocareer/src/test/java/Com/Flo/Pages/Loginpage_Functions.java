@@ -18,15 +18,15 @@ public class Loginpage_Functions extends ElementList {
 		return this;
 	}
 	
-	public Loginpage_Functions enterusername(){
+	public Loginpage_Functions enterusername(String username){
 		this.waitForElement(LoginPage_Locators.USER_NAME, "id");
-		this.element(LoginPage_Locators.USER_NAME, "id").sendKeys("shivajainapure11@gmail.com");
+		this.element(LoginPage_Locators.USER_NAME, "id").sendKeys(username);
 		return this;		
 	}
 	
-	public Loginpage_Functions enterpassword(){
+	public Loginpage_Functions enterpassword(String password){
 		this.waitForElement(LoginPage_Locators.PASS_WORD, "id");
-		this.element(LoginPage_Locators.PASS_WORD, "id").sendKeys("123");
+		this.element(LoginPage_Locators.PASS_WORD, "id").sendKeys(password);
 		return this;		
 	}
 	

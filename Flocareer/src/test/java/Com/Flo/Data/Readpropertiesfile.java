@@ -8,6 +8,7 @@ import java.util.Properties;
 public class Readpropertiesfile {
 
 	Properties properties;
+	String Username, Password;
 
 	public void loadData() throws IOException {
 
@@ -22,6 +23,17 @@ public class Readpropertiesfile {
 		loadData();
 		String data = properties.getProperty(Data);
 		return data;
-
+	}
+	
+	public String getusername(String Username) throws IOException{
+		loadData();
+		Username = properties.getProperty(Username);
+		return Username;		
+	}
+	
+	public String getpassword(String password) throws IOException{
+		loadData();
+		Password = properties.getProperty(password);
+		return Password;		
 	}
 }
