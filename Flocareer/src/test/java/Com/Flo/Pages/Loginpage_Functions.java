@@ -1,12 +1,14 @@
 package Com.Flo.Pages;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import Com.Flo.Data.ElementList;
 import Com.Flo.Data.locators.login.LoginPage_Locators;
 
 public class Loginpage_Functions extends ElementList {
 	WebDriver driver;
+	String Login_LinkText, Expected_Text = "Login";
 
 	public Loginpage_Functions(WebDriver driver) {
 		super(driver);
@@ -35,5 +37,13 @@ public class Loginpage_Functions extends ElementList {
 		this.element(LoginPage_Locators.SUBMIT_BUTTON, "id").click();
 		return this;		
 	}
+	
+	public Loginpage_Functions verifyloginlink() {
+		this.waitForElement(LoginPage_Locators.LOGIN_LINK, "linkText");
+		Login_LinkText = this.element(LoginPage_Locators.LOGIN_LINK, "linkText").getText();
+		Assert.assertEquals(Expected_Text, Login_LinkText);
+		return this;
+	}
+	
 
 }

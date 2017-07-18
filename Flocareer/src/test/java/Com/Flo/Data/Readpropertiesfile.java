@@ -17,7 +17,7 @@ public class Readpropertiesfile {
 		FileReader fileobj = new FileReader(f);
 		properties.load(fileobj);
 
-	}
+	}	
 
 	public String getobject(String Data) throws IOException {
 		loadData();
