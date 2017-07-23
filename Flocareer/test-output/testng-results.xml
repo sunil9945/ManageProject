@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57834" started-at="2017-07-18T17:16:46Z" finished-at="2017-07-18T17:17:44Z">
+  <suite name="Suite" duration-ms="53425" started-at="2017-07-23T05:25:03Z" finished-at="2017-07-23T05:25:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57834" started-at="2017-07-18T17:16:46Z" finished-at="2017-07-18T17:17:44Z">
+    <test name="Test" duration-ms="53425" started-at="2017-07-23T05:25:03Z" finished-at="2017-07-23T05:25:57Z">
       <class name="Com.Flo.Testclasses.Requirements.Login.Login">
-        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@27efef64]" name="tearup" is-config="true" duration-ms="11291" started-at="2017-07-18T22:46:46Z" finished-at="2017-07-18T22:46:57Z">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@ae45eb6]" name="tearup" is-config="true" duration-ms="9981" started-at="2017-07-23T10:55:03Z" finished-at="2017-07-23T10:55:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@27efef64]" name="LoginToApp" duration-ms="9695" started-at="2017-07-18T22:46:57Z" finished-at="2017-07-18T22:47:07Z">
+        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@ae45eb6]" name="LoginToApp" duration-ms="9295" started-at="2017-07-23T10:55:13Z" finished-at="2017-07-23T10:55:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToApp -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@27efef64]" name="teardown" is-config="true" duration-ms="1216" started-at="2017-07-18T22:47:07Z" finished-at="2017-07-18T22:47:08Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@ae45eb6]" name="teardown" is-config="true" duration-ms="1003" started-at="2017-07-23T10:55:23Z" finished-at="2017-07-23T10:55:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@27efef64]" name="tearup" is-config="true" duration-ms="9758" started-at="2017-07-18T22:47:08Z" finished-at="2017-07-18T22:47:18Z">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@ae45eb6]" name="tearup" is-config="true" duration-ms="9908" started-at="2017-07-23T10:55:24Z" finished-at="2017-07-23T10:55:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@27efef64]" name="LogoutFromApp" duration-ms="22992" started-at="2017-07-18T22:47:18Z" finished-at="2017-07-18T22:47:41Z">
+        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@ae45eb6]" name="LogoutFromApp" duration-ms="22250" started-at="2017-07-23T10:55:34Z" finished-at="2017-07-23T10:55:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutFromApp -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@27efef64]" name="teardown" is-config="true" duration-ms="2849" started-at="2017-07-18T22:47:41Z" finished-at="2017-07-18T22:47:44Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@ae45eb6]" name="teardown" is-config="true" duration-ms="964" started-at="2017-07-23T10:55:56Z" finished-at="2017-07-23T10:55:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Com.Flo.Testclasses.Requirements.Login.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
