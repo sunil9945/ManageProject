@@ -10,7 +10,7 @@ import Com.Flo.Data.locators.corporate.CorpDashboardPage_Locators;
 public class Corpdashboardpage_Functions extends ElementList{
 	WebDriver driver;
 	String DashBoard_Text;
-	String ExpDashboard_Text = "FloCareer Dashboard";
+	String ExpDashboard_Text = "Corporate Dashboard";
 	
 	
 	public Corpdashboardpage_Functions(WebDriver driver) {
@@ -28,9 +28,9 @@ public class Corpdashboardpage_Functions extends ElementList{
 	}
 	
 	public Corpdashboardpage_Functions ClickonHamburgerMenu_Functions() throws Exception {
-		this.waitForElement(CorpDashboardPage_Locators.CLICK_CORP_HAMBURGER, "id");
+		this.waitForElement(CorpDashboardPage_Locators.CLICK_CORP_HAMBURGER, "xpath");
 		Thread.sleep(4000);
-		this.element(CorpDashboardPage_Locators.CLICK_CORP_HAMBURGER, "id").click();
+		this.element(CorpDashboardPage_Locators.CLICK_CORP_HAMBURGER, "xpath").click();
 		return this;
 	}
 	

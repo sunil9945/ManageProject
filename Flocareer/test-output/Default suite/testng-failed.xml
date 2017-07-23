@@ -5,7 +5,8 @@
     <classes>
       <class name="Com.Flo.Testclasses.Requirements.Login.Login">
         <methods>
-          <include name="Logintoapp"/>
+          <include name="teardown"/>
+          <include name="LogoutFromApp"/>
           <include name="tearup"/>
         </methods>
       </class> <!-- Com.Flo.Testclasses.Requirements.Login.Login -->
