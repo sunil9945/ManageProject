@@ -5,7 +5,6 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import Com.Flo.Data.PropDatareadmethods;
@@ -41,12 +40,12 @@ public class Basicconfig extends Readpropertiesfile{
 			throw new Exception("Browser is not correct");
 		}
 	}
-	
+	/*
 	@AfterMethod
 	public void teardown(){
 		driver.close();
 		driver.quit();
-	}
+	}*/
 	
 	
 	

@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="Com.Flo.Testclasses.Requirements.Login.Login"/>
+       <class name="Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

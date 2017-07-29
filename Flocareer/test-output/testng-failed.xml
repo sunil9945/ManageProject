@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Com.Flo.Testclasses.Requirements.Login.Login">
+      <class name="Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite">
         <methods>
-          <include name="teardown"/>
-          <include name="LogoutFromApp"/>
+          <include name="Create_Requisite"/>
           <include name="tearup"/>
-          <include name="LoginToApp"/>
         </methods>
-      </class> <!-- Com.Flo.Testclasses.Requirements.Login.Login -->
+      </class> <!-- Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -9,7 +9,7 @@ import Com.Flo.configuration.Config.Basicconfig;
 
 public class Login extends Basicconfig{
 	
-	@Test()
+	@Test(priority=3)
 	public void LoginToApp() throws Exception{
 		Loginpage_Functions login_functions = new Loginpage_Functions(this.driver);
 		PropDatareadmethods propfiles= new PropDatareadmethods();
@@ -21,7 +21,7 @@ public class Login extends Basicconfig{
 		corporatepage_functions.verifydashboardpage();
 	}
 	
-	@Test()
+	@Test(priority=2)
 	public void LogoutFromApp() throws Exception{
 		Loginpage_Functions login_functions = new Loginpage_Functions(this.driver);
 		PropDatareadmethods propfiles= new PropDatareadmethods();
