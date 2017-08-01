@@ -39,8 +39,19 @@ public class Create_New_Requisite extends Basicconfig {
 		createnewrequisite.Select_Requisite_Priority();
 		createnewrequisite.Enter_Skills();
 		createnewrequisite.Select_Skill_Level();		
+		comanmeth.Scroll_Functions(this.driver);
 		createnewrequisite.Select_Skill_Requirement();
+		comanmeth.Scroll_Functions(this.driver);
 		createnewrequisite.Select_Assessment();
+		createnewrequisite.Enter_Description(this.driver);
+		comanmeth.Scroll_Functions(this.driver);		
+		createnewrequisite.Select_Requiement_Type();
+		createnewrequisite.Enter_No_Of_Openings();
+		createnewrequisite.Select_Currency_Type();
+		createnewrequisite.Select_Salary_Type();
+		createnewrequisite.Enter_Comments(this.driver);
+		createnewrequisite.Clickon_Publish();
+		reqmanagement.Verify_Created_Requisite(this.driver);
 		
 		
 		

@@ -15,10 +15,12 @@ public class Create_Requisite_Locators {
 			ASSESSMENT_CAT = "//div[@id='add1']/div[2]/div[1]/ul/ul[1]/ul[1]/li[1]/span",
 			REQ_MINIMUM_SCORE = "",
 			REQ_TOTAL_EXPERIENCE = "",
-			REQ_DESCRIPTION = "",
-			REQ_EMPLOYEMENT_TYPE = "ddEmpType",
+			REQ_DESCRIPTION = "html/body",			
+			REQ_EMPLOYEMENT_TYPE = "//select[@id='ddEmpType']",
 			REQ_NO_OF_OPENINGS = "reqNumJob1",
+			REQ_CURRENCY_TYPE="//select[@id='ctcCurCreReq']/option[@value='INR']",
 			REQ_SALARY_RANGE = "",
-			REQ_COMMENTS = "",
+			REQ_SALARYBY_TYPE ="//select[@id='ctcFreqCreReq']",
+			REQ_COMMENTS="html/body",
 			REQ_PUBLISH = "btnSubmitReq";
 }

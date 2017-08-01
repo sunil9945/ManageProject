@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27163" started-at="2017-07-29T10:43:54Z" finished-at="2017-07-29T10:44:21Z">
+  <suite name="Default suite" duration-ms="50780" started-at="2017-08-01T09:13:58Z" finished-at="2017-08-01T09:14:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27163" started-at="2017-07-29T10:43:54Z" finished-at="2017-07-29T10:44:21Z">
+    <test name="Default test" duration-ms="50780" started-at="2017-08-01T09:13:58Z" finished-at="2017-08-01T09:14:49Z">
       <class name="Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite">
-        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite@68c4039c]" name="tearup" is-config="true" duration-ms="9146" started-at="2017-07-29T16:13:54Z" finished-at="2017-07-29T16:14:03Z">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite@68c4039c]" name="tearup" is-config="true" duration-ms="16545" started-at="2017-08-01T14:43:58Z" finished-at="2017-08-01T14:44:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method status="PASS" signature="Create_Requisite()[pri:0, instance:Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite@68c4039c]" name="Create_Requisite" duration-ms="17988" started-at="2017-07-29T16:14:03Z" finished-at="2017-07-29T16:14:21Z">
+        <test-method status="PASS" signature="Create_Requisite()[pri:0, instance:Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite@68c4039c]" name="Create_Requisite" duration-ms="34210" started-at="2017-08-01T14:44:15Z" finished-at="2017-08-01T14:44:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Create_Requisite -->

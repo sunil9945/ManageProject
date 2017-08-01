@@ -31,7 +31,7 @@ public class Common_Methods {
 	
 	public Common_Methods Scroll_Functions(WebDriver driver1) throws Exception{
 		JavascriptExecutor jse = (JavascriptExecutor)driver1;
-		jse.executeScript("window.scrollBy(0,400)", "");
+		jse.executeScript("window.scrollBy(0,600)", "");
 		return this;
 }
 }
