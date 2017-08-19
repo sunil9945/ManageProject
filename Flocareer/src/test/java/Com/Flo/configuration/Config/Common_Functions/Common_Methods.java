@@ -16,7 +16,7 @@ public class Common_Methods {
 	}
 
 	public Actions Mouse_Hover() throws Exception{
-		Thread.sleep(4000);		
+		Thread.sleep(2000);		
 		System.out.println(this.driver) ;
 		Actions action = new Actions(this.driver);        
 		return action;		
@@ -34,4 +34,8 @@ public class Common_Methods {
 		jse.executeScript("window.scrollBy(0,600)", "");
 		return this;
 }
-}
+	public void dynamic_logout(){
+		driver.get("http://52.77.243.219/dynamic/logout/");
+		}
+		
+	}

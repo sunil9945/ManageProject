@@ -1,4 +1,4 @@
-package Com.Flo.Pages;
+package Com.Flo.Pages.Commonfunctions;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -14,19 +14,19 @@ public class Loginpage_Functions extends ElementList {
 		super(driver);
 	}
 
-	public Loginpage_Functions clickonlogin() {
+	public Loginpage_Functions clickonlogin() throws Exception {
 		this.waitForElement(LoginPage_Locators.LOGIN_LINK, "linkText");
 		this.element(LoginPage_Locators.LOGIN_LINK, "linkText").click();
 		return this;
 	}
 	
-	public Loginpage_Functions enterusername(String username){
+	public Loginpage_Functions enterusername(String username) throws Exception{
 		this.waitForElement(LoginPage_Locators.USER_NAME, "id");
 		this.element(LoginPage_Locators.USER_NAME, "id").sendKeys(username);
 		return this;		
 	}
 	
-	public Loginpage_Functions enterpassword(String password){
+	public Loginpage_Functions enterpassword(String password) throws Exception{
 		this.waitForElement(LoginPage_Locators.PASS_WORD, "id");
 		this.element(LoginPage_Locators.PASS_WORD, "id").sendKeys(password);
 		return this;		

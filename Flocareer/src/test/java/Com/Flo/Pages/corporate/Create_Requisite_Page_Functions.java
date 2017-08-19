@@ -13,8 +13,8 @@ public class Create_Requisite_Page_Functions extends ElementList {
 
 	WebElement Req_Comp, Req_Owner, Req_Priority, Req_Skill, Req_Requirement, Req_Assessment, Req_Level,
 			Requierement_Type, Salary_Type;
-	public static String Create_Req_Text, Exp_Create_Req = "Create Requisite", Req_ID = "REQ_12345",
-			COMPANY = "Accenture consultancy services Pvt. Ltd.", JOB_TITLE = "Automation testing",
+	public static String Create_Req_Text, Exp_Create_Req = "Create Requisite", Req_ID = "REQ_12345"+System.currentTimeMillis(),
+			COMPANY = "Accenture consultancy services Pvt. Ltd.", JOB_TITLE = "Automation testing"+System.currentTimeMillis(),
 			REQ_LOCATION = "Bangalore", REQ_OWNER = "Shivar Prasad", REQ_PRIORITY = "Medium",
 			SKILLS = "Automation Engineer", REQ_LEVEL = "Professional", REQ_REQUIREMENT = "Mandatory",
 			REQ_ASSESSMENT = "Java --- Intermediate", REQ_DESCRIPTION = "Job openings for automation testing",

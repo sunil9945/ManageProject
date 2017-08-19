@@ -30,6 +30,7 @@ public class Corpdashboardpage_Functions extends ElementList {
 	}
 
 	public Corpdashboardpage_Functions ClickonLogout_Functions() throws Exception {
+		Thread.sleep(2000);
 		this.waitForElement(CorpDashboardPage_Locators.CLICK_LOGOUT, "id");
 		this.element(CorpDashboardPage_Locators.CLICK_LOGOUT, "id").click();
 		return this;

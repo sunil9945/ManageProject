@@ -3,13 +3,13 @@ package Com.Flo.Testclasses.Requirements.Login;
 import org.testng.annotations.Test;
 
 import Com.Flo.Data.PropDatareadmethods;
-import Com.Flo.Pages.Loginpage_Functions;
+import Com.Flo.Pages.Commonfunctions.Loginpage_Functions;
 import Com.Flo.Pages.corporate.Corpdashboardpage_Functions;
 import Com.Flo.configuration.Config.Basicconfig;
 
 public class Login extends Basicconfig{
 	
-	@Test(priority=3)
+	@Test()
 	public void LoginToApp() throws Exception{
 		Loginpage_Functions login_functions = new Loginpage_Functions(this.driver);
 		PropDatareadmethods propfiles= new PropDatareadmethods();
@@ -21,7 +21,7 @@ public class Login extends Basicconfig{
 		corporatepage_functions.verifydashboardpage();
 	}
 	
-	@Test(priority=2)
+	@Test()
 	public void LogoutFromApp() throws Exception{
 		Loginpage_Functions login_functions = new Loginpage_Functions(this.driver);
 		PropDatareadmethods propfiles= new PropDatareadmethods();

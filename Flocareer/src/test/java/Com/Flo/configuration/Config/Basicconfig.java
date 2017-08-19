@@ -49,7 +49,7 @@ public class Basicconfig extends Readpropertiesfile{
 	}
 	*/
 	
-	
+		
 		
 	}
 
