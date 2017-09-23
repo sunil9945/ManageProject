@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite">
+      <class name="Com.Flo.Testclasses.Requirements.Login.Login">
         <methods>
-          <include name="Create_Requisite"/>
+          <include name="teardown"/>
           <include name="tearup"/>
+          <include name="LoginToApp"/>
         </methods>
-      </class> <!-- Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite -->
+      </class> <!-- Com.Flo.Testclasses.Requirements.Login.Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

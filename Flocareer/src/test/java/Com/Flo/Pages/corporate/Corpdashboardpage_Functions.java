@@ -9,7 +9,7 @@ import Com.Flo.Data.locators.corporate.CorpDashboardPage_Locators;
 
 public class Corpdashboardpage_Functions extends ElementList {
 	WebDriver driver;
-	String DashBoard_Text, ExpDashboard_Text = "Corporate Dashboard";
+	String DashBoard_Text, ExpDashboard_Text = "Carporate Dashboard";
 
 	public Corpdashboardpage_Functions(WebDriver driver) {
 		super(driver);

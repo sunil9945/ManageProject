@@ -19,6 +19,7 @@ public class Req_management_Functions extends ElementList {
 	}
 
 	public Req_management_Functions verify_Req_Managementpage() throws Exception {
+		Thread.sleep(1000);
 		this.waitForElement(Req_managementPage_Locators.GET_REQ_MANAGEMENT_TEXT, "xpath");
 		Req_Management_Text = this.element(Req_managementPage_Locators.GET_REQ_MANAGEMENT_TEXT, "xpath").getText();
 		Assert.assertEquals(Req_Management_Text, Exp_Req_management);
