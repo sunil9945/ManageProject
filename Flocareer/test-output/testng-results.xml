@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16337" started-at="2017-09-09T10:50:10Z" finished-at="2017-09-09T10:50:26Z">
+  <suite name="Suite" duration-ms="47642" started-at="2017-09-23T14:22:27Z" finished-at="2017-09-23T14:23:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16337" started-at="2017-09-09T10:50:10Z" finished-at="2017-09-09T10:50:26Z">
+    <test name="Test" duration-ms="47642" started-at="2017-09-23T14:22:27Z" finished-at="2017-09-23T14:23:14Z">
       <class name="Com.Flo.Testclasses.Requirements.Login.Login">
-        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@47c62251]" name="tearup" is-config="true" duration-ms="11893" started-at="2017-09-09T16:20:10Z" finished-at="2017-09-09T16:20:22Z">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@59f99ea]" name="tearup" is-config="true" duration-ms="17925" started-at="2017-09-23T19:52:27Z" finished-at="2017-09-23T19:52:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method status="FAIL" signature="LoginToApp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@47c62251]" name="LoginToApp" duration-ms="2811" started-at="2017-09-09T16:20:22Z" finished-at="2017-09-09T16:20:25Z">
+        <test-method status="FAIL" signature="LoginToApp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@59f99ea]" name="LoginToApp" duration-ms="2834" started-at="2017-09-23T19:52:45Z" finished-at="2017-09-23T19:52:47Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Corporate Dashboard] but found [Crporate Dashboard]]]>
+              <![CDATA[expected [Corporate Dashboard] but found [Carporate Dashboard]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Corporate Dashboard] but found [Crporate Dashboard]
+              <![CDATA[java.lang.AssertionError: expected [Corporate Dashboard] but found [Carporate Dashboard]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
@@ -57,11 +57,72 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToApp -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@47c62251]" name="teardown" is-config="true" duration-ms="1603" started-at="2017-09-09T16:20:25Z" finished-at="2017-09-09T16:20:26Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@59f99ea]" name="teardown" is-config="true" duration-ms="1672" started-at="2017-09-23T19:52:47Z" finished-at="2017-09-23T19:52:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginToApp status=FAILURE method=Login.LoginToApp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@47c62251] output={null}]]]>
+                <![CDATA[[TestResult name=LoginToApp status=FAILURE method=Login.LoginToApp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@59f99ea]" name="tearup" is-config="true" duration-ms="9301" started-at="2017-09-23T19:52:49Z" finished-at="2017-09-23T19:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method status="FAIL" signature="LogoutFromApp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@59f99ea]" name="LogoutFromApp" duration-ms="2118" started-at="2017-09-23T19:52:58Z" finished-at="2017-09-23T19:53:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Corporate Dashboard] but found [Carporate Dashboard]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Corporate Dashboard] but found [Carporate Dashboard]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at Com.Flo.Pages.corporate.Corpdashboardpage_Functions.verifydashboardpage(Corpdashboardpage_Functions.java:21)
+	at Com.Flo.Testclasses.Requirements.Login.Login.LogoutFromApp(Login.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@59f99ea]" name="teardown" is-config="true" duration-ms="1306" started-at="2017-09-23T19:53:00Z" finished-at="2017-09-23T19:53:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogoutFromApp status=FAILURE method=Login.LogoutFromApp()[pri:0, instance:Com.Flo.Testclasses.Requirements.Login.Login@59f99ea] output={null}]]]>
               </value>
             </param>
           </params>
@@ -69,6 +130,69 @@
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Com.Flo.Testclasses.Requirements.Login.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite@27efef64]" name="tearup" is-config="true" duration-ms="8528" started-at="2017-09-23T19:53:02Z" finished-at="2017-09-23T19:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method status="FAIL" signature="Create_Requisite()[pri:0, instance:Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite@27efef64]" name="Create_Requisite" duration-ms="2688" started-at="2017-09-23T19:53:10Z" finished-at="2017-09-23T19:53:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Corporate Dashboard] but found [Carporate Dashboard]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Corporate Dashboard] but found [Carporate Dashboard]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at Com.Flo.Pages.corporate.Corpdashboardpage_Functions.verifydashboardpage(Corpdashboardpage_Functions.java:21)
+	at Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite.Create_Requisite(Create_New_Requisite.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Requisite -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite@27efef64]" name="teardown" is-config="true" duration-ms="1234" started-at="2017-09-23T19:53:13Z" finished-at="2017-09-23T19:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_Requisite status=FAILURE method=Create_New_Requisite.Create_Requisite()[pri:0, instance:Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Com.Flo.Testclasses.Requirements.Corporate.Create_New_Requisite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
