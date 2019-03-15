@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Parallel test suite]">
+  <test verbose="0" name="Test(failed)">
+    <classes>
+      <class name="testClases.Createjobsheet">
+        <methods>
+          <include name="createjobsheets"/>
+          <include name="tearup"/>
+        </methods>
+      </class> <!-- testClases.Createjobsheet -->
+      <class name="testClases.LoginasTenant">
+        <methods>
+          <include name="tearup"/>
+          <include name="logintoAppasteneant"/>
+        </methods>
+      </class> <!-- testClases.LoginasTenant -->
+      <class name="testClases.CreateStore">
+        <methods>
+          <include name="CretenewStore"/>
+          <include name="tearup"/>
+        </methods>
+      </class> <!-- testClases.CreateStore -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
