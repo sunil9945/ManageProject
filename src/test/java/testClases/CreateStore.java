@@ -13,7 +13,7 @@ import testdata.BusinessCenterTestdata;
 public class CreateStore extends BasicConfig{
 	String BCenterName, strcenterName,straddress1,straddress2,strcity,strcontactnum,straddcontactnum,
 	strminservicecharge,strdate;
-	
+	//calculation
 	@Test(priority=1)
 	public void CretenewStore() throws Exception{
 		
